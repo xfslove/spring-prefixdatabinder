@@ -18,7 +18,7 @@ import org.springframework.web.servlet.i18n.CookieLocaleResolver;
 import java.util.List;
 
 /**
- * Created by qianjia on 15/6/15.
+ * Created by hanwen on 15-9-2.
  */
 @Configuration
 public class SpringMvcConfig extends WebMvcConfigurerAdapter {
