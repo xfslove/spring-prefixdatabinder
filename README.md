@@ -1,3 +1,13 @@
-# spring-dataBinder-byPrefix
+// Package client
+/*
+ * YuanJing OpenAPI SDK for Go
+ *
+ *
+ */
+package model
 
-populate values by prefix and bind to JAVA Bean.
+type ConsoleAdminListInstancesOfProjectForms struct {
+    NextToken *string `json:"nextToken,omitempty"`
+    MaxResult *int64 `json:"maxResult,omitempty"`
+    ProjectId string `json:"projectId"`
+}
